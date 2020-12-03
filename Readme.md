@@ -9,7 +9,7 @@ This repository contains a demo application to perform the matrix multiplication
 ### Compilation:
 Execute the following commands to compile the source code:
 ```
-git submodule update --init
+git submodule update --init // alternatively, copy SEAL v3.5.9 into the root of the project
 cd SEAL
 cmake .
 make
